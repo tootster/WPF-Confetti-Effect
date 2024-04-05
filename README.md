@@ -28,11 +28,11 @@ public partial class MainWindow : Window
 {
     private readonly ConfettiEffect confettiEffect = new ConfettiEffect
     {
-        ConfettiCount = 300,
-        MinFallSpeed = 150,
-        MaxFallSpeed = 250,
-        MinConfettiSize = 8,
-        MaxConfettiSize = 18
+        ConfettiCount = 400,
+        MinFallSpeed = 200,
+        MaxFallSpeed = 300,
+        MinConfettiSize = 5.5,
+        MaxConfettiSize = 16.5
     };
 
     public MainWindow()
