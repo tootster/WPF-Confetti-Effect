@@ -8,7 +8,7 @@ using System.Windows.Shapes;
 namespace ConfettiEffect
 {
    public class ConfettiEffect
-{
+   {
     private readonly Random random = new Random();
     private readonly string[] possibleColors = {
         "#FF1E90FF", // Bright Blue
@@ -157,5 +157,5 @@ namespace ConfettiEffect
         scaleTransform.BeginAnimation(ScaleTransform.ScaleXProperty, scaleXAnimation);
         scaleTransform.BeginAnimation(ScaleTransform.ScaleYProperty, scaleYAnimation);
     }
-}
+   }
 }
