@@ -8,6 +8,7 @@ A customizable confetti effect for WPF applications.
 - Customizable properties to control the appearance and behavior of the confetti effect
 - Adjustable confetti count, fall speed, size, rotation, and movement
 - Random colors for a visually appealing effect
+- Optimized performance to prevent UI freezing
 
 ## Installation
 
